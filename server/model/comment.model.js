@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 const commentSchema = new mongoose.Schema({
-  comments:{
+  comment:{
    type:String,
   },
   createdAt:{

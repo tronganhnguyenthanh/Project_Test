@@ -2,11 +2,11 @@ const commentModel = require("../model/comment.model")
 // Post comment
 const postComment = async (req, res) => {
   try{
-    let comment = new commentModel({
-     comments:req.body.comments,
+    let comments = new commentModel({
+     comment:req.body.comment,
     })
-    await comment.save()
-    res.json(comment)
+    await comments.save()
+    res.json(comments)
   }catch(error){
     res.status(400).json({message:error})  
   } 
