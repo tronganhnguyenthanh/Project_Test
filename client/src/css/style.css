@@ -1,3 +1,23 @@
 .form-control:focus{
   box-shadow:none !important;
 }
+
+.img-avatar{
+  width:5%;
+  margin:auto;
+  margin-top:2%;
+}
+
+span{
+ cursor:pointer;
+}
+
+.comment-wrapper{
+  display:flex;
+  margin-left:-30%;
+}
+
+.comment-content{
+  margin-top:5%;
+  margin-left:-56%;
+}
